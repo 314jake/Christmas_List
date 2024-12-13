@@ -1,0 +1,58 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: rgb(20, 0, 53);
+    background-image: url(../images/snow.gif);
+    background-size: 45%;
+    background-attachment: fixed;
+}
+
+main h1,
+main ul {
+    color: #cc3333;
+}
+
+main h1 {
+    text-align: center;
+    font-size: 5rem;
+    font-family: "Emilys Candy", cursive;
+    font-weight: 700;
+    text-shadow: 0.25rem 0.25rem 0.25rem rgb(96, 96, 96);
+    padding: 6rem 0 6rem 0;
+    
+    position: relative;
+    top: 2rem;
+}
+
+main ul {
+    width: 70%;
+    margin: 0 auto;
+
+    font-size: 2rem;
+    font-family: "Twinkle Star", cursive;
+    font-weight: 500;
+    text-shadow: 0.09375rem 0.09375rem 0.09375rem rgb(96, 96, 96);
+}
+
+main li {
+    padding: 3rem 0 3rem 0;
+}
+
+#christmas {
+    font-size: larger;
+    font-weight: 600;
+}
+
+/* Mobile Styles */
+
+@media only screen and (max-width: 666px) {
+    html {
+        font-size: 12px;
+    }
+
+    main ul {
+        width: 90%;
+    }
+}
